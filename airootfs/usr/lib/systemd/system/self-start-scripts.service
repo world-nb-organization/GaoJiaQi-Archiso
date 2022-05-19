@@ -1,0 +1,9 @@
+[Unit]
+Description=Som scrpits
+After=NetworkManager.service
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/sh /usr/local/self-start-service.sh
+[Install]
+WantedBy=multi-user.target
