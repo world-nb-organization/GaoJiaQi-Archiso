@@ -1,5 +1,5 @@
 [Unit]
-Description=Som scrpits
+Description=Some scrpits
 After=NetworkManager.service
 [Service]
 Type=oneshot
