@@ -1,0 +1,7 @@
+[Formats]
+LANG=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+
+[Translations]
+LANGUAGE=zh_CN:en_US

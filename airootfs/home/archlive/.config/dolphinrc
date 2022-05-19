@@ -1,0 +1,18 @@
+[DetailsMode]
+PreviewSize=16
+
+[General]
+Version=201
+ViewPropsTimestamp=2022,5,19,12,0,58.217
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+Virtual1 Height 2544x1278=596
+Virtual1 Width 2544x1278=419
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled

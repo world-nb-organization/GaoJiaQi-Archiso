@@ -1,0 +1,34 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
+<Menu>
+ <Menu>
+  <Name>System</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>ScreenSavers</Menuname>
+   <Menuname>Terminal</Menuname>
+   <Merge type="files"/>
+   <Filename>avahi-discover.desktop</Filename>
+   <Filename>org.kde.discover.desktop</Filename>
+   <Filename>org.kde.dolphin.desktop</Filename>
+   <Filename>org.fcitx.Fcitx5.desktop</Filename>
+   <Filename>org.kde.konsole.desktop</Filename>
+   <Filename>fish.desktop</Filename>
+   <Filename>rustdesk.desktop</Filename>
+   <Filename>org.kde.kinfocenter.desktop</Filename>
+   <Filename>org.kde.plasma-systemmonitor.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Include>
+   <Filename>rustdesk.desktop</Filename>
+  </Include>
+  <Exclude/>
+ </Menu>
+ <Menu>
+  <Name>Applications</Name>
+  <Layout/>
+  <Exclude>
+   <Filename>rustdesk.desktop</Filename>
+  </Exclude>
+ </Menu>
+</Menu>
