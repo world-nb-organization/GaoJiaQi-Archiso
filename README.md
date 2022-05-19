@@ -1,7 +1,12 @@
 # GaoJiaQi-Archiso
-GaoJiaQi-Archiso   于2022年5月15日开始在Arch Linux的基础上开始搭建，目前正处于不定期更新的状态，为大家提供更好的体验环境。
-## 建议
-如果您对这个系统的完整性和体验有质疑，可以下载”virtual-chick“虚拟机，添加”GaoJiaQi-Archiso“进行模拟体验。
- 
- 
-最后祝愿您体验愉快。
+这是一个自用的基于[ArchISO](https://gitlab.archlinux.org/archlinux/archiso)的live-cd项目，本项目包含常用的聊天软件和远程控制软件，便于远程维修或者求助。iso中包含常用的测试、维护和代理软件，以及一些实用的软件源。
+
+## 屏幕截图
+![1](pics/1.png)
+## To Do List
+- [ ] 用github-actions自动构建每日版本
+- [ ] 做出gnome版本
+- [ ] 解决一些小问题
+- [ ] 给iso签名
+
+## 目前此iso还处于Beta阶段，建议您谨慎尝试，[iso下载地址](https://disk.aac6fef.top/s/mxIR)
