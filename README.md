@@ -12,7 +12,16 @@
 - [ ] 解决一些小问题
 - [x] 给iso签名
 
-## 构建指南
+## Issues
+
+- Issue1
+- Issue1
+- Issue1
+
+## 获取ISO
+1. 您可以直接从[GitHub Release](https://github.com/world-nb-organization/GaoJiaQi-Archiso/releases)找到我们编译的ISO的下载地址
+
+2. （**推荐**）您也可以通过我们给出的配置文件自行构建:
 
 本repo中有三个位于aur里的包：分别是[clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese),[rustdesk](https://aur.archlinux.org/packages/rustdesk)和[wechat-uos](https://aur.archlinux.org/packages/wechat-uos),因此请您自备具有这三个包的软件源或者创建本地软件源:
 
@@ -24,4 +33,8 @@ repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
 
 在准备好本地软件源后，运行`sudo mkarchiso -v -o ./images ./` ,来构建iso,构建完毕后，iso文件将位于`images`文件夹内。
 
-## 目前此iso还处于Beta阶段，请谨慎尝试，[iso下载地址](https://disk.aac6fef.top/s/mxIR)
+## 致谢
+- [高嘉麒](https://nb.com)：搞基指导，项目名称提供者
+- [高立基](https://gaojiplus.com)：高嘉麒的生父
+- [女娲](我不道哇)：造人、补天
+- [盘古](不知道)：开天
