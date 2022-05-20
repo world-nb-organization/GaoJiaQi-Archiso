@@ -156,8 +156,6 @@ materia-kde
 papirus-icon-theme
 ttf-lxgw-wenkai
 v2raya
-archlinuxcn-keyring
-telegram-desktop
 icalingua++
 fcitx5-im
 fcitx5-pinyin-zhwiki
@@ -192,3 +190,4 @@ mesa
 lib32-mesa
 nvidia-utils
 lib32-nvidia-utils
+yay
