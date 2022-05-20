@@ -9,9 +9,8 @@
 ## To Do List
 
 - [ ] 用github-actions自动构建每日版本
-- [ ] 做出gnome版本
 - [ ] 解决一些小问题
-- [ ] 给iso签名
+- [x] 给iso签名
 
 ## 构建指南
 
