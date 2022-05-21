@@ -19,7 +19,8 @@
 
 2. （**推荐**）您也可以通过我们给出的配置文件自行构建:
 
-本repo中有三个位于aur里的包：分别是[clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese),[rustdesk](https://aur.archlinux.org/packages/rustdesk)和[wechat-uos](https://aur.archlinux.org/packages/wechat-uos),因此请您自备具有这三个包的软件源或者创建本地软件源:
+本repo中有三个位于aur里的包：分别是[clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese),[rustdesk-bin](https://aur.archlinux.org/packages/rustdesk-bin)和[wechat-uos](https://aur.archlinux.org/packages/wechat-uos),因此请您自备具有这三个包的软件源或者创建本地软件源:
+> 这三个包均位于aur-packages.x86_64中，因此，如果您没有添加本地软件源或者使用一键脚本，默认不会安装这三个包
 
 ```bash
 repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
