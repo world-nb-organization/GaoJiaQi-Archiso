@@ -12,6 +12,7 @@
 - [ ] 解决一些小问题
 - [x] 给iso签名
 - [ ] 重构build.sh
+- [ ] 添加安装其他来源的软件包的功能
 
 
 ## 获取ISO
@@ -22,7 +23,7 @@
 1.（**推荐**）您也可以通过我们给出的配置文件自行构建:
 
 本repo中有三个位于aur里的包：分别是[clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese),[rustdesk-bin](https://aur.archlinux.org/packages/rustdesk-bin)和[wechat-uos](https://aur.archlinux.org/packages/wechat-uos),因此请您自备具有这三个包的软件源或者创建本地软件源:
-> 这三个包均位于aur-packages.x86_64中，因此，如果您没有将这些包复制到packages.x86_64或者使用一键脚本，默认不会安装这三个包。用一下命令来添加自定义软件源来安装来自其他位置或aur的包：
+> 这三个包均位于aur-packages.x86_64中，因此，如果您没有将这些包复制到packages.x86_64或者使用一键脚本，默认不会安装这三个包。用以下命令来添加自定义软件源来安装来自其他位置或aur的包：
 
 ```bash
 repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
