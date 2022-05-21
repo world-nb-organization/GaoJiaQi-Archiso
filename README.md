@@ -11,6 +11,7 @@
 - [ ] 用github-actions自动构建每日版本
 - [ ] 解决一些小问题
 - [x] 给iso签名
+- [ ] 重构build.sh
 
 
 ## 获取ISO
@@ -24,7 +25,10 @@
 repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
 ```
 
-然后用本地软件库的路径替换掉repo中的pacman.conf中的[locale]软件源，参见[构建本地仓库](https://wiki.archlinux.org/title/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Tips_and_tricks_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E8%87%AA%E5%BB%BA%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93)
+然后在pacman.conf中添加[repo]软件源，参见[构建本地仓库](https://wiki.archlinux.org/title/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Tips_and_tricks_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E8%87%AA%E5%BB%BA%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93)
 
 在准备好本地软件源后，运行`sudo mkarchiso -v -o ./images ./` ,来构建iso,构建完毕后，iso文件将位于`images`文件夹内。
 
+3 （**实验性**）您可以使用我们提供的一键脚本
+
+在**工作目录内**运行```bash build.sh```来构建iso。构建完毕后，iso文件将位于`images`文件夹内。
