@@ -26,8 +26,8 @@ This is a [ArchISO](https://gitlab.archlinux.org/archlinux/archiso)-based live-C
 - Build manually
 
 
-There are three packages in this repo that are included in aur: [clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese),[rustdesk-bin](https://aur.archlinux.org/packages/rustdesk-bin)and[wechat-uos](https://aur.archlinux.org/packages/wechat-uos),So please provide your own repo with these three packages or create a local software repo:
-> All three packages are located in aur-packages.x86_64, so they will not be installed by default if you do not copy these packages to packages.x86_64 or use the script mentioned later . Use the following command to add custom software sources to install packages from other locations or aur.
+There are three packages in this repo that are included in aur: [clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese), [rustdesk-bin](https://aur.archlinux.org/packages/rustdesk-bin) and [wechat-uos](https://aur.archlinux.org/packages/wechat-uos),So please provide your own repo with these three packages or create a local software repo:
+> All three packages are located in aur-packages.x86_64, so they will not be installed by default if you do not copy these packages to packages.x86_64 . Use the following command to add custom software sources to install packages from other source or aur.
 
 ```bash
 repo-add /path/to/local.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
