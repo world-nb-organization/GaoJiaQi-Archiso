@@ -1,7 +1,7 @@
 # GaoJiaQi-Archiso
 > Thanks 高嘉麒 for translating!
 
-This is a [ArchISO](https://gitlab.archlinux.org/archlinux/archiso)-based live-CD projetc.It contains some popular IM and remote control applications in China to make it easier for asking for help and remote.It also contains some useful applications for testing,maintaining,proxy and some useful repos.
+This is a [ArchISO](https://gitlab.archlinux.org/archlinux/archiso)-based live-CD project.It contains some popular IM and remote control applications in China to make it possible and easier for asking for help.It also contains some useful applications for testing,maintaining the system,proxy and more useful repos.
 
 ## Screenshots
 
@@ -10,7 +10,7 @@ This is a [ArchISO](https://gitlab.archlinux.org/archlinux/archiso)-based live-C
 ## To Do List
 
 - [ ] build nightly version through github actions
-- [ ] solve some issues
+- [ ] solve some know issues
 - [x] sign for iso
 - [ ] rebuild `build.sh`
 - [ ] add support for installing packages from other repos(这一句没看懂，请自行修改)
@@ -42,6 +42,7 @@ repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
 
 Run ```sudo bash build.sh``` **in the working directory** to build it.The iso will be in the `images` folder if it succeed.
 
-> Note：Please add the packages you want to install from aur to the `aur-packages.x86_64` before you run the script
+> Note：Please add the packages you want to install from aur to the `aur-packages.x86_64` before you run the script 
+> 
 > 有没有dalao帮我重构build.sh，bash好难啊啊啊啊啊啊！
 
