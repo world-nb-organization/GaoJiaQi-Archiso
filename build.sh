@@ -23,6 +23,7 @@ Server = file://$(pwd)/local-repo
 " >> ./pacman.conf
 echo -e "\033[32m正在生成最终ISO,这可能会花掉一些时间，请耐心等待\033[0m"
 sudo mkarchiso -v -o ./images ./
+echo -e "\033[32m生成完毕，请打开images文件夹来查看iso\033[0m"
 echo -e "\033[32m删除一些临时文件\033[0m"
 mv ./pacman.conf.bak ./pacman.conf &&
 rm -f ./pacman.conf.bak
@@ -32,3 +33,4 @@ rm -rf ./aur
 sudo pacman -Scc --noconfirm  ;
 sudo rm -rf ./work
 sudo rm -rf ./local-repo
+return 0;
