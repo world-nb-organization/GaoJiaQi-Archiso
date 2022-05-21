@@ -1,9 +1,0 @@
-[2022-05-19 12:04:15.578421 +00:00] INFO [src/server.rs:301] DISPLAY=Ok(":0")
-[2022-05-19 12:04:15.580202 +00:00] INFO [src/server.rs:302] XAUTHORITY=Ok("/home/archlive/.Xauthority")
-[2022-05-19 12:04:15.611937 +00:00] DEBUG [libs/hbb_common/src/config.rs:235] Configuration path: /home/archlive/.config/rustdesk/RustDesk.toml
-[2022-05-19 12:04:15.612222 +00:00] DEBUG [libs/hbb_common/src/config.rs:238] Config { id: "", password: "", salt: "", key_pair: ([], []), key_confirmed: false, keys_confirmed: {} }
-[2022-05-19 12:04:15.612461 +00:00] INFO [src/server.rs:326] config synced
-[2022-05-19 12:04:15.612587 +00:00] DEBUG [libs/hbb_common/src/config.rs:235] Configuration path: /home/archlive/.config/rustdesk/RustDesk2.toml
-[2022-05-19 12:04:15.612681 +00:00] INFO [src/server.rs:329] config2 synced
-[2022-05-19 12:04:15.814563 +00:00] DEBUG [libs/hbb_common/src/config.rs:235] Configuration path: /home/archlive/.config/rustdesk/RustDesk_local.toml
-[2022-05-19 12:07:43.526715 +00:00] INFO [src/server/input_service.rs:259] fix_key_down_timeout_at_exit

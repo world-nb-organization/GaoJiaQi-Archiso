@@ -1,5 +1,5 @@
 [PlasmaRunnerManager]
-LaunchCounts=1 exec:///usr/bin/konsole
+LaunchCounts=1 exec:///usr/bin/konsole,1 exec:///usr/lib/firefox/firefox
 
 [PlasmaRunnerManager][History]
 9f608750-90ee-4f10-9dfa-4a2af270abf6=
