@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-pacman -Scc --noconfirm
+sudo pacman -Scc --noconfirm
 echo -e "\033[32m从aur-packages.x86_64中读取包名并生成二进制包...\033[0m"
 cp ./pacman.conf ./pacman.conf.bak
 cp ./packages.x86_64 ./packages.x86_64.bak
