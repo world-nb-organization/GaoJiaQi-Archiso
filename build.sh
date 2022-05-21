@@ -20,7 +20,6 @@ repo-add ./local-repo/local-repo.db.tar.gz ./local-repo/*
 echo "[local-repo]
 Server = file://$(pwd)/local-repo
 " >> ./pacman.conf
-sleep 30
 echo -e "\033[32m正在生成最终ISO,这可能会花掉一些时间，请耐心等待\033[0m"
 sudo mkarchiso -v -o ./images ./
 echo -e "\033[32m删除一些临时文件\033[0m"
