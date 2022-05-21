@@ -1,26 +1,34 @@
 # GaoJiaQi-Archiso
+> Thanks 高嘉麒 for translating!
 
-这是一个自用的基于[ArchISO](https://gitlab.archlinux.org/archlinux/archiso)的live-CD项目，本项目包含常用的聊天软件和远程控制软件，便于远程维修或者求助。iso中包含常用的测试、维护和代理软件，以及一些实用的软件源。
+This is a [ArchISO](https://gitlab.archlinux.org/archlinux/archiso)-based live-CD projetc.It contains some popular IM and remote control applications in China to make it easier for asking for help and remote.It also contains some useful applications for testing,maintaining,proxy and some useful repos.
 
-## 屏幕截图
+## Screenshots
 
 ![1](pics/1.png)
 
 ## To Do List
 
-- [ ] 用github-actions自动构建每日版本
-- [ ] 解决一些小问题
-- [x] 给iso签名
-- [ ] 重构build.sh
+- [ ] build nightly version through github actions
+- [ ] solve some issues
+- [x] sign for iso
+- [ ] rebuild `build.sh`
+- [ ] add support for installing packages from other repos(这一句没看懂，请自行修改)
 
 
-## 获取ISO
-1. 您可以直接从[GitHub Release](https://github.com/world-nb-organization/GaoJiaQi-Archiso/releases)找到我们编译的ISO的下载地址
+## Get ISO
+1. You can find the url to download iso built by us from[GitHub Release](https://github.com/world-nb-organization/GaoJiaQi-Archiso/releases)
 
-2. （**推荐**）您也可以通过我们给出的配置文件自行构建:
+2. （**Recommend**）You can also build it manually
+
+## Building Instructions
+
+- Build manually
+
+> 摆烂
 
 本repo中有三个位于aur里的包：分别是[clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese),[rustdesk-bin](https://aur.archlinux.org/packages/rustdesk-bin)和[wechat-uos](https://aur.archlinux.org/packages/wechat-uos),因此请您自备具有这三个包的软件源或者创建本地软件源:
-> 这三个包均位于aur-packages.x86_64中，因此，如果您没有添加本地软件源或者使用一键脚本，默认不会安装这三个包
+> 这三个包均位于aur-packages.x86_64中，因此，如果您没有将这些包复制到packages.x86_64或者使用一键脚本，默认不会安装这三个包。用以下命令来添加自定义软件源来安装来自其他位置或aur的包：
 
 ```bash
 repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
@@ -28,9 +36,12 @@ repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
 
 然后在pacman.conf中添加[repo]软件源，参见[构建本地仓库](https://wiki.archlinux.org/title/Pacman_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)/Tips_and_tricks_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E8%87%AA%E5%BB%BA%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93)
 
-在准备好本地软件源后，运行`sudo mkarchiso -v -o ./images ./` ,来构建iso,构建完毕后，iso文件将位于`images`文件夹内。
+在准备好本地软件源后，运行 `sudo mkarchiso -v -o ./images ./` ,来构建iso.如果一切顺利，iso文件将位于`images`文件夹内。
 
-3. （**实验性**）您可以使用我们提供的一键脚本
+- (**experienments**) You can use the script we provided
 
-在**工作目录内**运行```sudo bash build.sh```来构建iso。构建完毕后，iso文件将位于`images`文件夹内。
+Run ```sudo bash build.sh``` **in the working directory** to build it.The iso will be in the `images` folder if it succeed.
+
+> Note：Please add the packages you want to install from aur to the `aur-packages.x86_64` before you run the script
 > 有没有dalao帮我重构build.sh，bash好难啊啊啊啊啊啊！
+
