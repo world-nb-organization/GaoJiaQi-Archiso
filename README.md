@@ -12,11 +12,6 @@
 - [ ] 解决一些小问题
 - [x] 给iso签名
 
-## Issues
-
-- Issue1
-- Issue1
-- Issue1
 
 ## 获取ISO
 1. 您可以直接从[GitHub Release](https://github.com/world-nb-organization/GaoJiaQi-Archiso/releases)找到我们编译的ISO的下载地址
