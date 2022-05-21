@@ -13,7 +13,7 @@ This is a [ArchISO](https://gitlab.archlinux.org/archlinux/archiso)-based live-C
 - [ ] solve some know issues
 - [x] sign for iso
 - [ ] rebuild `build.sh`
-- [ ] add support for installing packages from other repos(这一句没看懂，请自行修改)
+- [ ] add support for installing packages from other source
 
 
 ## Get ISO
@@ -26,7 +26,7 @@ This is a [ArchISO](https://gitlab.archlinux.org/archlinux/archiso)-based live-C
 - Build manually
 
 
-There are three packages in this repo that are included in aur: [clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese),[rustdesk-bin](https://aur.archlinux.org/packages/rustdesk-bin)和[wechat-uos](https://aur.archlinux.org/packages/wechat-uos),So please provide your own source with these three packages or create a local software repo:
+There are three packages in this repo that are included in aur: [clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese),[rustdesk-bin](https://aur.archlinux.org/packages/rustdesk-bin)and[wechat-uos](https://aur.archlinux.org/packages/wechat-uos),So please provide your own repo with these three packages or create a local software repo:
 > All three packages are located in aur-packages.x86_64, so they will not be installed by default if you do not copy these packages to packages.x86_64 or use the script mentioned later . Use the following command to add custom software sources to install packages from other locations or aur.
 
 ```bash
