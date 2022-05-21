@@ -17,11 +17,13 @@
 
 
 ## 获取ISO
-1. 您可以直接从[GitHub Release](https://github.com/world-nb-organization/GaoJiaQi-Archiso/releases)找到我们编译的ISO的下载地址
+
+1. 您可以直接从[GitHub Release](https://github.com/world-nb-organization/GaoJiaQi-Archiso/releases)找到我们编译的ISO的下载地址  
+2.（**推荐**）您也可以通过我们给出的配置文件自行构建
 
 ## 构建以及自定义指南
 
-1.（**推荐**）您也可以通过我们给出的配置文件自行构建:
+1. 手动配置并构建
 
 本repo中有三个位于aur里的包：分别是[clash-for-windows-chinese](https://aur.archlinux.org/packages/clash-for-windows-chinese),[rustdesk-bin](https://aur.archlinux.org/packages/rustdesk-bin)和[wechat-uos](https://aur.archlinux.org/packages/wechat-uos),因此请您自备具有这三个包的软件源或者创建本地软件源:
 > 这三个包均位于aur-packages.x86_64中，因此，如果您没有将这些包复制到packages.x86_64或者使用一键脚本，默认不会安装这三个包。用以下命令来添加自定义软件源来安装来自其他位置或aur的包：
