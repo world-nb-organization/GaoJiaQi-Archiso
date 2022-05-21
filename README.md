@@ -12,11 +12,6 @@
 - [ ] 解决一些小问题
 - [x] 给iso签名
 
-## Issues
-
-- Issue1
-- Issue1
-- Issue1
 
 ## 获取ISO
 1. 您可以直接从[GitHub Release](https://github.com/world-nb-organization/GaoJiaQi-Archiso/releases)找到我们编译的ISO的下载地址
@@ -33,8 +28,3 @@ repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
 
 在准备好本地软件源后，运行`sudo mkarchiso -v -o ./images ./` ,来构建iso,构建完毕后，iso文件将位于`images`文件夹内。
 
-## 致谢
-- [高嘉麒](https://nb.com)：搞基指导，项目名称提供者
-- [高立基](https://gaojiplus.com)：高嘉麒的生父
-- [女娲](我不道哇)：造人、补天
-- [盘古](不知道)：开天
