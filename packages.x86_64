@@ -187,3 +187,5 @@ lib32-mesa
 nvidia-utils
 lib32-nvidia-utils
 yay
+arch-install-scripts
+base
