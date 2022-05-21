@@ -10,7 +10,7 @@ do
     package=$(head -"${i}" ../aur-packages.x86_64 | tail -1)
     git clone "https://aur.archlinux.org/${package}.git"
     cd ./"${package}" && 
-    makepkg --skippgpcheck --skipchecksums --noconfirm ;
+    makepkg --skippgpcheck --skipchecksums --noconfirm --syncdeps;
     cp ./*.pkg.tar.zst ../../local-repo ;
     cd ../
 done
