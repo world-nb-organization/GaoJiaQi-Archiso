@@ -32,5 +32,5 @@ repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
 
 3. （**实验性**）您可以使用我们提供的一键脚本
 
-在**工作目录内**运行```bash build.sh```来构建iso。构建完毕后，iso文件将位于`images`文件夹内。
+在**工作目录内**运行```sudo bash build.sh```来构建iso。构建完毕后，iso文件将位于`images`文件夹内。
 > 有没有dalao帮我重构build.sh，bash好难啊啊啊啊啊啊！
