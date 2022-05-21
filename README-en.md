@@ -41,6 +41,5 @@ After preparing the local repository, run `sudo mkarchiso -v -o . /images . /` ,
 
 Run ```sudo bash build.sh``` **in the working directory** to build it.The iso will be in the `images` folder if it succeed.
 
-> Note：Please add the packages you want to install from aur to the `aur-packages.x86_64` before you run the script
-
+> Note：If you want to install packages from aur,please add them to the `aur-packages.x86_64`file before you run the script.
 
