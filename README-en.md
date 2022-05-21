@@ -1,5 +1,4 @@
 # GaoJiaQi-Archiso
-> [English](./README-en.md)
 
 这是一个自用的基于[ArchISO](https://gitlab.archlinux.org/archlinux/archiso)的live-CD项目，本项目包含常用的聊天软件和远程控制软件，便于远程维修或者求助。iso中包含常用的测试、维护和代理软件，以及一些实用的软件源。
 
