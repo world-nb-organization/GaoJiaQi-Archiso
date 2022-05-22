@@ -38,7 +38,7 @@ repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
 
 - (**实验性**) 您可以使用我们提供的一键脚本
 
-在**工作目录内**运行```sudo bash build.sh```来构建iso。构建完毕后，iso文件将位于`images`文件夹内。
+在**工作目录内**运行``` bash build.sh```来构建iso。构建完毕后，iso文件将位于`images`文件夹内。
 
 > 注：如果你想要安装AUR中的包，请在aur-packages.x86_64中填写你想要安装的包，脚本会自动处理aur中的软件。
 > 有没有dalao帮我重构build.sh，bash好难啊啊啊啊啊啊！
