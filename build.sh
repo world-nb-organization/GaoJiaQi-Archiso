@@ -1,10 +1,22 @@
 #!/usr/bin/bash
 if [[ -e /usr/bin/pacman ]]
 then
-    true
+    :
 else
     echo -e "\033[31m不受支持的发行版，请联系开发者并尝试手动构建\033[0m"
     exit
+fi
+source /etc/os-release
+if [[ -e /usr/bin/pacman ]]
+then
+    :
+elif [ "$ID" = "arch" ]
+then 
+    echo -e "\033[32m安装依赖\033[0m"
+    sudo pacman -S archiso
+else
+    echo -e "\033[32m从aur安装依赖\033[0m"
+    mkdir aur && cd aur && git clone https://aur.archlinux.org/archiso-git.git && cd archiso-git && makepkg -si --skippgpcheck --skipchecksums --noconfirm && rm -rf ./*
 fi
 sudo pacman -Scc --noconfirm
 echo -e "\033[32m从aur-packages.x86_64中读取包名并生成二进制包...\033[0m"
@@ -38,10 +50,6 @@ else
 fi
 echo -e "\033[32m删除一些临时文件\033[0m"
 mv ./pacman.conf.bak ./pacman.conf &&
-rm -f ./pacman.conf.bak
-mv ./packages.x86_64.bak ./packages.x86_64 &&
-rm -f ./packages.x86_64.bak
-rm -rf ./aur
+mv ./packages.x86_64.bak ./packages.x86_64 ;
 sudo pacman -Scc --noconfirm  ;
-sudo rm -rf ./work
-sudo rm -rf ./local-repo
+sudo rm -rf ./work ./local-repo ./aur ./packages.x86_64.bak ./pacman.conf.bak
