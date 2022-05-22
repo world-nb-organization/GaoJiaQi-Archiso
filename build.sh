@@ -1,4 +1,11 @@
 #!/usr/bin/bash
+if [[ -e /usr/bin/pacman ]]
+then
+    true
+else
+    echo -e "\033[31m不受支持的发行版，请联系开发者并尝试手动构建\033[0m"
+    exit
+fi
 sudo pacman -Scc --noconfirm
 echo -e "\033[32m从aur-packages.x86_64中读取包名并生成二进制包...\033[0m"
 cp ./pacman.conf ./pacman.conf.bak
