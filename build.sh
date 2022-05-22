@@ -23,7 +23,8 @@ Server = file://$(pwd)/local-repo
 " >> ./pacman.conf
 echo -e "\033[32m正在生成最终ISO,这可能会花掉一些时间，请耐心等待\033[0m"
 sudo mkarchiso -v -o ./images ./
-if $? = 0;then
+if  [ $? = "0" ]
+then
     echo -e "\033[32m生成完毕，请打开images文件夹来查看iso\033[0m"
 else
     echo -e "\033[31m生成失败,请向开发者反馈或者尝试手动构建\033[0m"
