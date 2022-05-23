@@ -1,0 +1,3 @@
+[submodule "airootfs/home/archlive/oh-my-fish"]
+	path = airootfs/home/archlive/oh-my-fish
+	url = git@github.com:oh-my-fish/oh-my-fish.git
