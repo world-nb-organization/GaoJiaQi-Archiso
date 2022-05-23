@@ -188,3 +188,6 @@ nvidia-utils
 lib32-nvidia-utils
 yay
 arch-install-scripts
+gparted
+partitionmanager
+clonezilla
