@@ -18,10 +18,9 @@ else
     echo -e "\033[32m从aur安装依赖\033[0m"
     mkdir aur && cd aur && git clone https://aur.archlinux.org/archiso-git.git && cd archiso-git && makepkg -si --skippgpcheck --skipchecksums --noconfirm && rm -rf ./*
 fi
-sudo pacman -Scc --noconfirm
+sudo rm -rf /var/cache/pacman/pkg/ 
 echo -e "\033[32m从aur-packages.x86_64中读取包名并生成二进制包...\033[0m"
-cp ./pacman.conf ./pacman.conf.bak
-cp ./packages.x86_64 ./packages.x86_64.bak
+cp ./pacman.conf ./pacman.conf.bak ;cp ./packages.x86_64 ./packages.x86_64.bak
 mkdir aur ;mkdir ./local-repo ; cd ./aur 
 echo "$(cat ../aur-packages.x86_64)" >>  ../packages.x86_64
 pwd
@@ -49,7 +48,5 @@ else
     echo -e "\033[31m生成失败,请向开发者反馈或者尝试手动构建\033[0m"
 fi
 echo -e "\033[32m删除一些临时文件\033[0m"
-mv ./pacman.conf.bak ./pacman.conf &&
-mv ./packages.x86_64.bak ./packages.x86_64 ;
-sudo pacman -Scc --noconfirm  ;
-sudo rm -rf ./work ./local-repo ./aur ./packages.x86_64.bak ./pacman.conf.bak
+mv ./pacman.conf.bak ./pacman.conf && mv ./packages.x86_64.bak ./packages.x86_64 ;
+sudo rm -rf /var/cache/pacman/pkg/;sudo rm -rf ./work ./local-repo ./aur ./packages.x86_64.bak ./pacman.conf.bak
