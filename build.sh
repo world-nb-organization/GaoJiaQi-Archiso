@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+cd $(dirname $0)
 if [[ -e /usr/bin/pacman ]]
 then
     :
