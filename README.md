@@ -40,6 +40,7 @@ repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
 
 在**工作目录内**运行``` bash build.sh```来构建iso。构建完毕后，iso文件将位于`images`文件夹内。
 
-> 注：如果你想要安装AUR中的包，请在aur-packages.x86_64中填写你想要安装的包，脚本会自动处理aur中的软件。
+> 已知一个算法问题，在aur-packages为空或只有一行时，构建会出问题，因此如果不需要aur包，请直接删除这个文件，这个问题会在一天内解决<br>
+> 注：如果你想要安装AUR中的包，请在aur-packages.x86_64中填写你想要安装的包，脚本会自动处理aur中的软件。<br>
 > 有没有dalao帮我重构build.sh，bash好难啊啊啊啊啊啊！
 
