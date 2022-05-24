@@ -9,10 +9,12 @@ Id_1=d0642f94-54cc-49ea-85a7-54e83ace28e3
 Number=1
 Rows=1
 
+[ModifierOnlyShortcuts]
+Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
+
 [Plugins]
 blurEnabled=true
 contrastEnabled=true
 
 [org.kde.kdecoration2]
-library=org.kde.breeze
-theme=Breeze 微风
+library=org.kde.kwin.aurorae

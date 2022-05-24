@@ -2,35 +2,35 @@
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
+ContrastAmount=0.65000000000000002
 ContrastEffect=1
-IntensityAmount=0.1
+IntensityAmount=0.10000000000000001
 IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025
+ColorAmount=0.025000000000000001
 ColorEffect=2
-ContrastAmount=0.1
+ContrastAmount=0.10000000000000001
 ContrastEffect=2
 Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=255,255,255
-BackgroundNormal=255,255,255
-DecorationFocus=26,115,232
-DecorationHover=200,222,249
+BackgroundAlternate=64,69,82
+BackgroundNormal=65,72,87
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=61,174,233
-ForegroundInactive=177,177,177
-ForegroundLink=96,159,240
-ForegroundNegative=244,67,54
-ForegroundNeutral=255,152,0
-ForegroundNormal=68,68,68
-ForegroundPositive=76,175,80
-ForegroundVisited=156,39,176
+ForegroundInactive=102,106,115
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=211,218,227
+ForegroundPositive=39,174,96
+ForegroundVisited=82,148,226
 
 [Colors:Complementary]
 BackgroundAlternate=255,255,255
@@ -75,70 +75,70 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [Colors:Selection]
-BackgroundAlternate=200,222,249
-BackgroundNormal=26,115,232
-DecorationFocus=200,222,249
-DecorationHover=200,222,249
+BackgroundAlternate=29,153,243
+BackgroundNormal=82,148,226
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=252,252,252
-ForegroundInactive=222,238,255
-ForegroundLink=96,159,240
-ForegroundNegative=244,67,54
-ForegroundNeutral=255,152,0
-ForegroundNormal=255,255,255
-ForegroundPositive=76,175,80
-ForegroundVisited=156,39,176
+ForegroundInactive=211,218,227
+ForegroundLink=253,188,75
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=211,218,227
+ForegroundPositive=39,174,96
+ForegroundVisited=189,195,199
 
 [Colors:Tooltip]
-BackgroundAlternate=97,97,97
-BackgroundNormal=97,97,97
-DecorationFocus=200,222,249
-DecorationHover=200,222,249
+BackgroundAlternate=47,52,63
+BackgroundNormal=53,57,69
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=61,174,233
-ForegroundInactive=177,177,177
-ForegroundLink=96,159,240
-ForegroundNegative=244,67,54
-ForegroundNeutral=255,152,0
-ForegroundNormal=255,255,255
-ForegroundPositive=76,175,80
-ForegroundVisited=224,100,232
+ForegroundInactive=102,106,115
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=211,218,227
+ForegroundPositive=39,174,96
+ForegroundVisited=82,148,226
 
 [Colors:View]
-BackgroundAlternate=239,240,241
-BackgroundNormal=255,255,255
-DecorationFocus=200,222,249
-DecorationHover=200,222,249
+BackgroundAlternate=64,69,82
+BackgroundNormal=64,69,82
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=61,174,233
-ForegroundInactive=177,177,177
-ForegroundLink=96,159,240
-ForegroundNegative=244,67,54
-ForegroundNeutral=255,152,0
-ForegroundNormal=68,68,68
-ForegroundPositive=76,175,80
-ForegroundVisited=156,39,176
+ForegroundInactive=102,106,115
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=211,218,227
+ForegroundPositive=39,174,96
+ForegroundVisited=82,148,226
 
 [Colors:Window]
-BackgroundAlternate=242,242,242
-BackgroundNormal=249,249,249
-DecorationFocus=200,222,249
-DecorationHover=200,222,249
+BackgroundAlternate=47,52,63
+BackgroundNormal=47,52,63
+DecorationFocus=82,148,226
+DecorationHover=82,148,226
 ForegroundActive=61,174,233
-ForegroundInactive=177,177,177
-ForegroundLink=96,159,240
-ForegroundNegative=244,67,54
-ForegroundNeutral=255,152,0
-ForegroundNormal=68,68,68
-ForegroundPositive=76,175,80
-ForegroundVisited=156,39,176
+ForegroundInactive=102,106,115
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=211,218,227
+ForegroundPositive=39,174,96
+ForegroundVisited=82,148,226
 
 [General]
-ColorScheme=MateriaLight
+ColorScheme=Arc Dark
 Name[zh_CN]=Breeze 微风浅色
-Name=Materia Light
+Name=Arc Dark
 shadeSortColumn=true
-widgetStyle=Breeze
+widgetStyle=kvantum-dark
 
 [Icons]
-Theme=Papirus
+Theme=Papirus-Dark
 
 [KDE]
 ShowIconsInMenuItems=true
@@ -150,9 +150,9 @@ ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
-activeBackground=240,240,240
-activeBlend=240,240,240
-activeForeground=68,68,68
-inactiveBackground=235,235,235
-inactiveBlend=235,235,235
-inactiveForeground=139,139,139
+activeBackground=47,52,63
+activeBlend=47,52,63
+activeForeground=211,218,227
+inactiveBackground=47,52,63
+inactiveBlend=47,52,63
+inactiveForeground=102,106,115

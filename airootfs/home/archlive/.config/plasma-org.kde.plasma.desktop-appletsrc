@@ -10,7 +10,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -18,9 +18,28 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][2][Applets][18][Configuration][Appearance]
+dateDisplayFormat=BesideTime
+showSeconds=true
+
+[Containments][2][Applets][18][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][19]
 immutability=1
 plugin=org.kde.plasma.showdesktop
+
+[Containments][2][Applets][22]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][22][Configuration][General]
+length=2042
+
+[Containments][2][Applets][24]
+immutability=1
+plugin=org.kde.plasma.appmenu
 
 [Containments][2][Applets][3]
 immutability=1
@@ -28,6 +47,10 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
+
+[Containments][2][Applets][3][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -42,13 +65,6 @@ global=Alt+F1
 immutability=1
 plugin=org.kde.plasma.pager
 
-[Containments][2][Applets][5]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][2][Applets][5][Configuration][General]
-launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://filemanager,preferred://browser,applications:org.kde.konsole.desktop
-
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
@@ -58,7 +74,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=55
+PreloadWeight=70
 SystrayContainmentId=8
 
 [Containments][2][ConfigDialog]
@@ -66,7 +82,7 @@ DialogHeight=74
 DialogWidth=2544
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;18;19
+AppletOrder=3;4;24;6;22;7;18;19
 
 [Containments][20]
 ItemGeometries-2544x1278=
@@ -83,8 +99,13 @@ wallpaperplugin=org.kde.image
 DialogHeight=540
 DialogWidth=720
 
+[Containments][20][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=1003
+ToolBoxButtonY=36
+
 [Containments][20][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/SafeLanding/contents/images/5120x2880.jpg
+Image=file:///usr/share/wallpapers/ColdRipple/contents/images/2560x1440.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][8]
@@ -92,7 +113,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
@@ -135,6 +156,9 @@ plugin=org.kde.plasma.battery
 [Containments][8][Applets][21]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
+
+[Containments][8][Applets][21][Configuration]
+PreloadWeight=70
 
 [Containments][8][Applets][9]
 immutability=1
