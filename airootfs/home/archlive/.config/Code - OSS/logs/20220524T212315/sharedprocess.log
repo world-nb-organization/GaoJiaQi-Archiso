@@ -1,0 +1,9 @@
+[2022-05-24 21:23:19.606] [sharedprocess] [info] Starting worker process with pid 4767 (type: fileWatcher, window: 1).
+[2022-05-24 21:23:34.124] [sharedprocess] [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+[2022-05-24 21:23:35.547] [sharedprocess] [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+[2022-05-24 21:23:37.932] [sharedprocess] [info] Downloaded extension: ms-ceintl.vscode-language-pack-zh-hans /home/archlive/.config/Code - OSS/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-zh-hans-1.67.3
+[2022-05-24 21:23:38.184] [sharedprocess] [info] Extracted extension to /home/archlive/.vscode-oss/extensions/.1eece934-a526-4c93-b26e-d634143e4e14: ms-ceintl.vscode-language-pack-zh-hans
+[2022-05-24 21:23:38.186] [sharedprocess] [info] Renamed to /home/archlive/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.67.3
+[2022-05-24 21:23:38.188] [sharedprocess] [info] Extracting completed. ms-ceintl.vscode-language-pack-zh-hans
+[2022-05-24 21:23:38.189] [sharedprocess] [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+[2022-05-24 21:23:38.265] [sharedprocess] [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans

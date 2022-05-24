@@ -1,76 +1,53 @@
-I2022-05-24 12:23:48.731477 instance.cpp:1410] Override Enabled Addons: {}
-I2022-05-24 12:23:48.731530 instance.cpp:1411] Override Disabled Addons: {}
-I2022-05-24 12:23:48.997816 addonmanager.cpp:191] Loaded addon xcb
-I2022-05-24 12:23:49.218242 addonmanager.cpp:191] Loaded addon quickphrase
-I2022-05-24 12:23:49.291813 addonmanager.cpp:191] Loaded addon imselector
-I2022-05-24 12:23:49.317569 addonmanager.cpp:191] Loaded addon keyboard
-I2022-05-24 12:23:49.367820 addonmanager.cpp:191] Loaded addon dbus
-I2022-05-24 12:23:49.437056 addonmanager.cpp:191] Loaded addon fcitx4frontend
-I2022-05-24 12:23:49.519559 addonmanager.cpp:191] Loaded addon ibusfrontend
-I2022-05-24 12:23:49.567652 addonmanager.cpp:191] Loaded addon xim
-E2022-05-24 12:23:49.649914 waylandmodule.cpp:240] Failed to open wayland connection
-I2022-05-24 12:23:49.649936 addonmanager.cpp:191] Loaded addon wayland
-I2022-05-24 12:23:49.673310 addonmanager.cpp:191] Loaded addon dbusfrontend
-I2022-05-24 12:23:49.746432 addonmanager.cpp:191] Loaded addon clipboard
-I2022-05-24 12:23:49.784486 addonmanager.cpp:191] Loaded addon waylandim
-I2022-05-24 12:23:49.833285 addonmanager.cpp:191] Loaded addon unicode
-I2022-05-24 12:23:49.965835 addonmanager.cpp:191] Loaded addon pinyinhelper
-I2022-05-24 12:23:50.174759 inputmethodmanager.cpp:198] Found 713 input method(s) in addon keyboard
-I2022-05-24 12:23:50.174945 inputmethodmanager.cpp:117] No valid input method group in configuration. Building a default one
-I2022-05-24 12:23:50.246981 instance.cpp:737] Items in 默认: [InputMethodGroupItem(keyboard-us,layout=), InputMethodGroupItem(pinyin,layout=)]
-I2022-05-24 12:23:50.247028 instance.cpp:742] Generated groups: [默认]
-I2022-05-24 12:23:50.311003 addonmanager.cpp:191] Loaded addon kimpanel
-I2022-05-24 12:23:50.765520 addonmanager.cpp:191] Loaded addon classicui
-I2022-05-24 12:23:50.801567 addonmanager.cpp:191] Loaded addon notificationitem
-I2022-05-24 12:23:50.832426 addonmanager.cpp:191] Loaded addon notifications
-I2022-05-24 12:23:50.892263 addonmanager.cpp:191] Loaded addon punctuation
+I2022-05-24 20:58:27.936457 instance.cpp:1410] Override Enabled Addons: {}
+I2022-05-24 20:58:27.936491 instance.cpp:1411] Override Disabled Addons: {}
+I2022-05-24 20:58:28.103550 addonmanager.cpp:191] Loaded addon xcb
+I2022-05-24 20:58:28.259650 addonmanager.cpp:191] Loaded addon quickphrase
+I2022-05-24 20:58:28.351600 addonmanager.cpp:191] Loaded addon imselector
+I2022-05-24 20:58:28.363558 addonmanager.cpp:191] Loaded addon keyboard
+I2022-05-24 20:58:28.384268 addonmanager.cpp:191] Loaded addon dbus
+I2022-05-24 20:58:28.411130 addonmanager.cpp:191] Loaded addon fcitx4frontend
+I2022-05-24 20:58:28.458884 addonmanager.cpp:191] Loaded addon ibusfrontend
+I2022-05-24 20:58:28.516859 addonmanager.cpp:191] Loaded addon xim
+E2022-05-24 20:58:28.546910 waylandmodule.cpp:240] Failed to open wayland connection
+I2022-05-24 20:58:28.546944 addonmanager.cpp:191] Loaded addon wayland
+I2022-05-24 20:58:28.574724 addonmanager.cpp:191] Loaded addon dbusfrontend
+I2022-05-24 20:58:28.621513 addonmanager.cpp:191] Loaded addon clipboard
+I2022-05-24 20:58:28.654163 addonmanager.cpp:191] Loaded addon waylandim
+I2022-05-24 20:58:28.721944 addonmanager.cpp:191] Loaded addon unicode
+I2022-05-24 20:58:28.773155 addonmanager.cpp:191] Loaded addon pinyinhelper
+I2022-05-24 20:58:29.112373 inputmethodmanager.cpp:198] Found 713 input method(s) in addon keyboard
 
-(vmware-user:725): Gtk-WARNING **: 12:23:51.150: gtk_disable_setlocale() must be called before gtk_init()
-E2022-05-24 12:23:52.341068 pinyin.cpp:690] Failed to load pinyin history: io fail: iostream error
-I2022-05-24 12:23:55.326899 addonmanager.cpp:191] Loaded addon pinyin
-I2022-05-24 12:23:55.503552 addonmanager.cpp:191] Loaded addon cloudpinyin
-I2022-05-24 12:23:55.510286 kimpanel.cpp:112] Kimpanel new owner: 
-polkit-agent-helper-1: pam_authenticate failed: Authentication failure
-polkit-agent-helper-1: pam_authenticate failed: Authentication failure
-polkit-agent-helper-1: pam_authenticate failed: Authentication failure
-I2022-05-24 12:38:18.191122 addonmanager.cpp:191] Loaded addon fullwidth
-I2022-05-24 12:38:18.259733 addonmanager.cpp:191] Loaded addon chttrans
+(vmware-user:726): Gtk-WARNING **: 20:58:29.135: gtk_disable_setlocale() must be called before gtk_init()
+I2022-05-24 20:58:29.228045 addonmanager.cpp:191] Loaded addon kimpanel
+I2022-05-24 20:58:29.824329 addonmanager.cpp:191] Loaded addon classicui
+I2022-05-24 20:58:29.859325 addonmanager.cpp:191] Loaded addon notificationitem
+I2022-05-24 20:58:29.889875 addonmanager.cpp:191] Loaded addon notifications
+I2022-05-24 20:58:29.974387 addonmanager.cpp:191] Loaded addon punctuation
+I2022-05-24 20:58:34.681345 addonmanager.cpp:191] Loaded addon pinyin
+I2022-05-24 20:58:34.730537 addonmanager.cpp:191] Loaded addon cloudpinyin
+I2022-05-24 20:58:35.051597 kimpanel.cpp:112] Kimpanel new owner: 
+I2022-05-24 21:00:33.527980 addonmanager.cpp:191] Loaded addon fullwidth
+I2022-05-24 21:00:33.561108 addonmanager.cpp:191] Loaded addon chttrans
 
-** (process:734): WARNING **: 12:38:18.671: Error loading plugin: libaspell.so.15: 无法打开共享对象文件: 没有那个文件或目录
+** (process:778): WARNING **: 21:00:33.958: Error loading plugin: libaspell.so.15: 无法打开共享对象文件: 没有那个文件或目录
 
 
-** (process:734): WARNING **: 12:38:18.671: Error loading plugin: libhspell.so.0: 无法打开共享对象文件: 没有那个文件或目录
+** (process:778): WARNING **: 21:00:33.958: Error loading plugin: libhspell.so.0: 无法打开共享对象文件: 没有那个文件或目录
 
 
-** (process:734): WARNING **: 12:38:18.688: Error loading plugin: libnuspell.so.5: 无法打开共享对象文件: 没有那个文件或目录
+** (process:778): WARNING **: 21:00:33.960: Error loading plugin: libnuspell.so.5: 无法打开共享对象文件: 没有那个文件或目录
 
 
-** (process:734): WARNING **: 12:38:18.689: Error loading plugin: libvoikko.so.1: 无法打开共享对象文件: 没有那个文件或目录
+** (process:778): WARNING **: 21:00:33.961: Error loading plugin: libvoikko.so.1: 无法打开共享对象文件: 没有那个文件或目录
 
-I2022-05-24 12:38:18.722936 addonmanager.cpp:191] Loaded addon spell
-I2022-05-24 12:53:49.009323 instance.cpp:1272] Running autosave...
-I2022-05-24 12:53:52.735945 instance.cpp:1274] End autosave
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
-Authorization required, but no authorization protocol specified
-
+I2022-05-24 21:00:34.011790 addonmanager.cpp:191] Loaded addon spell
+Gtk-Message: 21:23:49.251: Failed to load module "appmenu-gtk-module"
+libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+[5119:5119:0524/212349.723450:ERROR:viz_main_impl.cc(185)] Exiting GPU process due to errors during initialization
+[5195:5195:0524/212349.790024:ERROR:angle_platform_impl.cc(44)] Display.cpp:977 (initialize): ANGLE Display::initialize error 0: Internal Vulkan error (-3): Initialization of an object could not be completed for implementation-specific reasons, in ../../third_party/angle/src/libANGLE/renderer/vulkan/RendererVk.cpp, initialize:1273.
+[5195:5195:0524/212349.792941:ERROR:gl_surface_egl.cc(837)] EGL Driver message (Critical) eglInitialize: Internal Vulkan error (-3): Initialization of an object could not be completed for implementation-specific reasons, in ../../third_party/angle/src/libANGLE/renderer/vulkan/RendererVk.cpp, initialize:1273.
+[5195:5195:0524/212349.793011:ERROR:gl_surface_egl.cc(1473)] eglInitialize SwANGLE failed with error EGL_NOT_INITIALIZED
+[5195:5195:0524/212349.793040:ERROR:gl_ozone_egl.cc(21)] GLSurfaceEGL::InitializeOneOff failed.
+[5195:5195:0524/212349.796295:ERROR:viz_main_impl.cc(185)] Exiting GPU process due to errors during initialization
+[5203:5203:0524/212349.806408:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is 
+[5009:5009:0524/212511.922111:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost

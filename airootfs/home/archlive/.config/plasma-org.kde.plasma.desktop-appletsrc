@@ -105,7 +105,7 @@ ToolBoxButtonX=1003
 ToolBoxButtonY=36
 
 [Containments][20][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/ColdRipple/contents/images/2560x1440.jpg
+Image=file:///usr/share/wallpapers/ColdRipple/contents/images/2560x1600.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][8]
