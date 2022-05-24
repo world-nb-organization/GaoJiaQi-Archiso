@@ -7,7 +7,10 @@ else
     exit
 fi
 source /etc/os-release
-if [ "$ID" = "arch" ]
+if [[ -e /usr/bin/mkarchiso ]]
+then
+    :
+elif [ "$ID" = "arch" ]
 then 
     echo -e "\033[32m安装依赖\033[0m"
     sudo pacman -S archiso
