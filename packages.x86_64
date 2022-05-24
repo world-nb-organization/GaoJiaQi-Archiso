@@ -1,7 +1,5 @@
 alsa-utils
 amd-ucode
-arch-install-scripts
-archinstall
 b43-fwcutter
 base
 bind-tools
@@ -88,7 +86,6 @@ pptpclient
 pv
 qemu-guest-agent
 refind
-reflector
 reiserfsprogs
 rp-pppoe
 rxvt-unicode-terminfo
@@ -191,3 +188,7 @@ arch-install-scripts
 gparted
 partitionmanager
 clonezilla
+arc-kde
+kvantum-theme-arc
+latte-dock
+tor-browser
