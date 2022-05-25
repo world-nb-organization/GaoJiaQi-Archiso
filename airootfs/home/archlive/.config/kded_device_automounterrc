@@ -1,7 +1,7 @@
 [Devices][/org/freedesktop/UDisks2/block_devices/loop0]
 EverMounted=true
-Icon=drive-harddisk
-LastNameSeen=airootfs.erofs
+Icon=application-vnd.squashfs
+LastNameSeen=airootfs.sfs
 LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sr0]

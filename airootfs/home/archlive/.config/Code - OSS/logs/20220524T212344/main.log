@@ -1,0 +1,8 @@
+[2022-05-24 21:23:44.101] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-24 21:23:44.121] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-05-24 21:23:44.142] [main] [info] ExtensionHostStarterWorker created
+[2022-05-24 21:23:45.698] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-24 21:23:45.930] [main] [info] Starting extension host with pid 5040 (fork() took 15 ms).
+[2022-05-24 21:23:45.931] [main] [info] ExtensionHostStarterWorker.start() took 29 ms.
+[2022-05-24 21:25:31.529] [main] [info] Waiting for extension host with pid 5040 to exit.
+[2022-05-24 21:25:31.534] [main] [info] Extension host with pid 5040 exited with code: 0, signal: null.

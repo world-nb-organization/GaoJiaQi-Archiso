@@ -1,8 +1,15 @@
+[KFileDialog Settings]
+detailViewIconSize=16
+
 [MainWindow]
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAABAQAAALAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
+Virtual1 Height 1690x798=686
 Virtual1 Height 2544x1278=704
+Virtual1 Width 1690x798=1020
 Virtual1 Width 2544x1278=1028
-Virtual1 XPosition 2544x1278=1024
-Virtual1 YPosition 2544x1278=377
+Virtual1 XPosition 1690x798=530
+Virtual1 XPosition 2544x1278=981
+Virtual1 YPosition 1690x798=107
+Virtual1 YPosition 2544x1278=369
