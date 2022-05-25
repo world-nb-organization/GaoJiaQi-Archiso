@@ -14,7 +14,7 @@ then
 elif [ "$ID" = "arch" ]
 then 
     echo -e "\033[32m安装依赖\033[0m"
-    sudo pacman -S archiso
+    sudo pacman -S archiso --noconfirm
 else
     echo -e "\033[32m从aur安装依赖\033[0m"
     mkdir aur && cd aur && git clone https://aur.archlinux.org/archiso-git.git && cd archiso-git && makepkg -si --skippgpcheck --skipchecksums --noconfirm && rm -rf ./*
