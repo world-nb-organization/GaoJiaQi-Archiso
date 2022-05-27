@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 cd $(dirname $0)
+echo "$(grep -v '^$' ./aur-packages.x86_64)" > ./aur-packages.x86_64
 if [[ -e /usr/bin/pacman ]]
 then
     :
