@@ -12,7 +12,7 @@ This is a [ArchISO](https://gitlab.archlinux.org/archlinux/archiso)-based live-C
 - [ ] build nightly version through github actions
 - [ ] solve some know issues
 - [x] sign for iso
-- [ ] rebuild `build.sh`
+- [ ] refactor `build.sh`
 - [ ] add support for installing packages from other source
 
 
