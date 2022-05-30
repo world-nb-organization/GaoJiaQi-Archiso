@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/x-iso9660-image;
+Actions=MountISO;
+X-KDE-AuthorizeAction=shell_access
+[Desktop Action MountISO]
+TryExec=mount
+Exec=kdesu bash /home/archlive/文档/Scripts/mountiso.sh %f
+Icon=application-x-cd-image
+
+Name[zh_CN]=挂载ISO
+Name[en]=Mount ISO
