@@ -19,7 +19,7 @@ prepare() {
         mkdir aur && cd aur && git clone https://aur.archlinux.org/archiso-git.git && cd archiso-git && makepkg -si --skippgpcheck --skipchecksums --noconfirm && rm -rf ./*
     fi
 }
-
+prepare
 genLocalRepository() {
     echo -e "\033[32m从aur-packages.x86_64中读取包名并生成二进制包...\033[0m"
     cp ./pacman.conf ./pacman.conf.bak
@@ -43,7 +43,7 @@ genLocalRepository() {
 Server = file://$(pwd)/local-repo
 " >>./pacman.conf
 }
-
+genLocalRepository
 makeISO() {
     echo -e "\033[32m正在生成最终ISO,这可能会花掉一些时间，请耐心等待\033[0m"
     sudo mkarchiso -v -o ./images ./
@@ -53,6 +53,7 @@ makeISO() {
         echo -e "\033[31m生成失败,请向开发者反馈或者尝试手动构建\033[0m"
     fi
 }
+makeISO
 clean() {
 
     echo -e "\033[32m删除一些临时文件\033[0m"
@@ -60,3 +61,4 @@ clean() {
     sudo rm -rf /var/cache/pacman/pkg/
     sudo rm -rf ./work ./local-repo ./aur ./packages.x86_64.bak ./pacman.conf.bak
 }
+clean
