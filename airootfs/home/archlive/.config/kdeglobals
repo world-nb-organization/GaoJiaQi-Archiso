@@ -94,7 +94,15 @@ ForegroundPositive=39,174,96
 ForegroundVisited=82,148,226
 
 [General]
+BrowserApplication=chromium.desktop
 ColorSchemeHash=aebe9d6820d9f1e51aac1699e8a985f6d0d84f4d
+XftHintStyle=hintslight
+XftSubPixel=rgb
+fixed=Hack,12,-1,5,50,0,0,0,0,0
+font=Noto Sans,12,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,12,-1,5,50,0,0,0,0,0
+smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 
 [KDE]
 LookAndFeelPackage=com.github.varlesh.arc-dark
@@ -123,6 +131,7 @@ View Style=DetailTree
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
+activeFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63

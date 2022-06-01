@@ -1,0 +1,9 @@
+[2022-06-01 17:10:45.986] [sharedprocess] [info] Starting worker process with pid 2603 (type: fileWatcher, window: 1).
+[2022-06-01 17:12:56.778] [sharedprocess] [info] Getting Manifest... alvesvaren.arc-dark
+[2022-06-01 17:12:56.784] [sharedprocess] [info] Installing extension: alvesvaren.arc-dark
+[2022-06-01 17:12:59.658] [sharedprocess] [error] RequestService#request (browser) - error https://alvesvaren.gallery.vsassets.io/_apis/public/gallery/publisher/alvesvaren/extension/arc-dark/0.4.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&install=true {}
+[2022-06-01 17:13:07.323] [sharedprocess] [info] Downloaded extension: alvesvaren.arc-dark /home/archlive/.config/Code - OSS/CachedExtensionVSIXs/alvesvaren.arc-dark-0.4.0
+[2022-06-01 17:13:07.351] [sharedprocess] [info] Extracted extension to /home/archlive/.vscode-oss/extensions/.15cfd74d-9464-4416-9e2e-45e8e24c78da: alvesvaren.arc-dark
+[2022-06-01 17:13:07.353] [sharedprocess] [info] Renamed to /home/archlive/.vscode-oss/extensions/alvesvaren.arc-dark-0.4.0
+[2022-06-01 17:13:07.355] [sharedprocess] [info] Extracting completed. alvesvaren.arc-dark
+[2022-06-01 17:13:07.356] [sharedprocess] [info] Extension installed successfully: alvesvaren.arc-dark

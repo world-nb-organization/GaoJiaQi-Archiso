@@ -1,1 +1,1 @@
-{"net":{"http_server_properties":{"servers":[],"version":5},"network_qualities":{}}}
+{"net":{"http_server_properties":{"servers":[{"isolation":[],"network_stats":{"srtt":34471},"server":"https://www.gstatic.com"}],"version":5},"network_qualities":{}}}
