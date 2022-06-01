@@ -134,7 +134,11 @@ ForegroundVisited=82,148,226
 ColorScheme=Arc Dark
 Name[zh_CN]=Breeze 微风浅色
 Name=Arc Dark
+font=Noto Sans,12,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
+smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 widgetStyle=kvantum-dark
 
 [Icons]

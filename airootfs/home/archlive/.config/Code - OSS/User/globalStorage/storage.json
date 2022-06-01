@@ -1466,8 +1466,8 @@
             "backupPath": "/home/archlive/.config/Code - OSS/Backups/1653427396912",
             "uiState": {
                 "mode": 1,
-                "x": 768,
-                "y": 303,
+                "x": 776,
+                "y": 357,
                 "width": 1024,
                 "height": 768
             }
@@ -1475,17 +1475,17 @@
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#1c1f26",
     "windowSplash": {
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1e1e1e",
-            "editorBackground": "#1e1e1e",
-            "titleBarBackground": "#3c3c3c",
-            "activityBarBackground": "#333333",
-            "sideBarBackground": "#252526",
-            "statusBarBackground": "#007acc",
+            "foreground": "#c2c3c5",
+            "background": "#1c1f26",
+            "editorBackground": "#1c1f26",
+            "titleBarBackground": "#3d4451",
+            "activityBarBackground": "#2f343e",
+            "sideBarBackground": "#262a32",
+            "statusBarBackground": "#14161b",
             "statusBarNoFolderBackground": "#68217a"
         },
         "layoutInfo": {

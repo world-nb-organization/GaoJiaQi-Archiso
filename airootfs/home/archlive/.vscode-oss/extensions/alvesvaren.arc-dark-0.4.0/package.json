@@ -1,0 +1,36 @@
+{
+	"name": "arc-dark",
+	"displayName": "Arc Dark for Visual Studio Code",
+	"publisher": "alvesvaren",
+	"description": "A port of the Arc Dark Theme for Visual Studio Code",
+	"version": "0.4.0",
+	"icon": "icon.png",
+	"repository": {
+		"url": "https://github.com/alvesvaren/arc-dark-vscode"
+	},
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Arc Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Arc Dark Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "394bd1bb-b1cc-4f56-a3e3-8f071e473ba8",
+		"publisherId": "341efaa8-ce4c-49d6-a02d-1b25986bac60",
+		"publisherDisplayName": "Alve Svarén",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1654103587351
+	}
+}

@@ -1,2 +1,3 @@
-2022/05/24-21:23:38.448 11de Creating DB /home/archlive/.config/Code - OSS/Session Storage since it was missing.
-2022/05/24-21:23:38.449 11de Reusing MANIFEST /home/archlive/.config/Code - OSS/Session Storage/MANIFEST-000001
+2022/06/01-17:03:48.301 468 Reusing MANIFEST /home/archlive/.config/Code - OSS/Session Storage/MANIFEST-000001
+2022/06/01-17:03:48.301 468 Recovering log #3
+2022/06/01-17:03:48.312 468 Reusing old log /home/archlive/.config/Code - OSS/Session Storage/000003.log 
