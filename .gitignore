@@ -1,3 +1,5 @@
 work
 images
 *.iso
+local-repo
+*.bak
