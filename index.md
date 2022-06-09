@@ -1,8 +1,7 @@
-# GaoJiaQi-Archiso
-
+# GaoJiaQi-Archiso-black
 > [English](README-en.md)
 
-这是一个自用的基于[ArchISO](https://gitlab.archlinux.org/archlinux/archiso)的live-CD项目，本项目包含常用的聊天软件和远程控制软件，便于远程维修或者求助。iso中包含常用的测试、维护和代理软件，以及一些实用的软件源。
+这是一个自用的基于[ArchISO](https://gitlab.archlinux.org/archlinux/archiso)的live-CD项目，本项目包含常用的聊天软件和远程控制软件，便于远程维修或者求助。iso中包含常用的测试、维护和代理软件，以及一些实用的软件源。和main分支唯一的区别就是主题不一样
 
 ## 屏幕截图
 
@@ -13,12 +12,11 @@
 - [ ] 用github-actions自动构建每日版本
 - [ ] 解决一些小问题
 - [x] 给iso签名
-- [x] 重构build.sh
+- [ ] 重构build.sh
 - [ ] 添加安装其他来源的软件包的功能
 
 
 ## 获取ISO
-
 1. 您可以直接从[GitHub Release](https://github.com/world-nb-organization/GaoJiaQi-Archiso/releases)找到我们编译的ISO的下载地址
 
 2. （**推荐**）您也可以通过我们给出的配置文件自行构建
@@ -40,7 +38,7 @@ repo-add /path/to/repo.db.tar.gz /path/to/packagetoadd.pkg.tar.zst
 
 - (**实验性**) 您可以使用我们提供的一键脚本
 
-运行 ``` bash build.sh``` 来构建iso。构建完毕后，iso文件将位于`images`文件夹内。
+运行``` bash build.sh```来构建iso。构建完毕后，iso文件将位于`images`文件夹内。
 
 
 > 注：如果你想要安装AUR中的包，请在aur-packages.x86_64中填写你想要安装的包，脚本会自动处理aur中的软件。<br>
